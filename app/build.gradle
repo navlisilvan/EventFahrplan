@@ -57,6 +57,7 @@ android {
     }
 
     signingConfigs {
+        acrolotl2022
         cccamp2019
         ccc36c3
         rc3
@@ -68,8 +69,8 @@ android {
     productFlavors {
 		acrolotl2022 {
             dimension defaultDimension
-            applicationId "info.metadude.android.cccamp.schedule"
-            versionName "${defaultConfig.versionName}-CCCamp-Edition"
+            applicationId "info.metadude.android.acrolotl2022.schedule"
+            versionName "${defaultConfig.versionName}-Acrolotl-Edition"
             buildConfigField "String", "GOOGLE_PLAY_URL", "\"\""
             buildConfigField "String", "F_DROID_URL", "\"\""
             buildConfigField "String", "SCHEDULE_URL", '"https://workshops.acrolotl.de/al22/schedule/export/schedule.xml"'
@@ -88,6 +89,7 @@ android {
             buildConfigField "boolean", "ENGAGE_GOOGLE_PLAY_RATING", "false"
             buildConfigField "String", "TRACE_DROID_EMAIL_ADDRESS", '""'
             buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '""'
+		}
         cccamp2019 {
             dimension defaultDimension
             applicationId "info.metadude.android.cccamp.schedule"
