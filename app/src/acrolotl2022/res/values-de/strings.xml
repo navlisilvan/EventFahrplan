@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Acrolotl 2022 Workshopplan</string>
+<string name="app_hardcoded_subtitle">19./20.Februar 2022, Online</string>
+<string name="copyright_logo">
+    </string>
+<string name="about_logo_content_description">
+        Acrolotl logo
+    </string>
+</resources>
+

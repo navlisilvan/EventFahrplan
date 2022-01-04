@@ -1,3 +1,8 @@
+signing.acrolorl2022-release.keystoreFilePath=/home/USERNAME/.android/acrolorl2022-release-key.keystore
+signing.acrolorl2022-release.keystorePassword="PASSWORD"
+signing.acrolorl2022-release.keyAlias="acrolorl2022"
+signing.acrolorl2022-release.keyPassword="ANOTHERPASSWORD"
+
 signing.cccamp2019-release.keystoreFilePath=/home/USERNAME/.android/cccamp2019-release-key.keystore
 signing.cccamp2019-release.keystorePassword="PASSWORD"
 signing.cccamp2019-release.keyAlias="cccamp2019"
