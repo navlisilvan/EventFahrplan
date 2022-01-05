@@ -69,7 +69,7 @@ android {
     productFlavors {
 		acrolotl2022 {
             dimension defaultDimension
-            applicationId "info.metadude.android.acrolotl2022.schedule"
+            applicationId "info.metadude.android.acrolotl.schedule"
             versionName "${defaultConfig.versionName}-Acrolotl-Edition"
             buildConfigField "String", "GOOGLE_PLAY_URL", "\"\""
             buildConfigField "String", "F_DROID_URL", "\"\""
